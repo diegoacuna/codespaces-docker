@@ -18,23 +18,11 @@
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
-		"terminal.integrated.shell.linux": null,
-		"window.autoDetectColorScheme": true,
-		"workbench.preferredDarkColorTheme": "Dracula",
-		"editor.renderWhitespace": "boundary",
-		"workbench.colorTheme": "Dracula",
-		"workbench.iconTheme": "vscode-great-icons"
+		"terminal.integrated.shell.linux": null
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"emmanuelbeziat.vscode-great-icons",
-		"dbaeumer.vscode-eslint",
-		"oderwat.indent-rainbow",
-		"vtrois.gitmoji-vscode",
-		"dracula-theme.theme-dracula",
-		"2gua.rainbow-brackets",
-		"ms-vscode.vscode-typescript-tslint-plugin"
 	],
 	
 

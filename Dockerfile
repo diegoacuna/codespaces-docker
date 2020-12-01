@@ -17,6 +17,10 @@ WORKDIR /app
 COPY Gemfile Gemfile.lock ./ 
 RUN gem install bundler && bundle install --jobs 20 --retry 5
 
+# precompile assets
+RUN yarn install
+RUN bundle exec rake assets:precompile
+
 COPY . ./
 
 # Use en_US.UTF-8 as our locale
